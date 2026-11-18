@@ -28,7 +28,7 @@ jobs:
           gradle-version: '8.7'
 
       - name: Extract Android project
-        run: unzip -q mudhakkira-teacher-app-source.zip -d extracted
+        run: unzip -q mudhakkira-app.zip -d extracted
 
       - name: Build debug APK
         working-directory: extracted/mudhakkira-teacher-app/android
